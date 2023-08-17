@@ -1,0 +1,260 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  margin: auto;
+  color: rgb(255, 255, 255);
+  height: 95vh;
+  max-width: 280px;
+  width: 100%;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  border-radius: 40px;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.top {
+  background-color: #7b5386;
+  width: 100%;
+  height: 50%;
+}
+
+#header {
+  width: 280px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.img1,
+.img2 {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  top: 22px;
+  left: 20px;
+}
+.img2 {
+  position: relative;
+  left: 130px;
+  width: 19px;
+  height: 19px;
+}
+#header > p {
+  position: relative;
+  top: 16px;
+  left: 38px;
+  font-size: 11px;
+  height: 30px;
+  width: 70px;
+}
+
+#tag {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* margin-right: 60px; */
+}
+#tag1 {
+  font-size: 10px;
+  padding-top: 40px;
+  margin: 0%;
+}
+#tag2 {
+  margin: 0%;
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.bottom {
+  position: absolute;
+  width: 130%;
+  height: 50%;
+  border-radius: 40% 40% 50% 50%;
+  background-color: rgb(253, 253, 253);
+  top: 42%;
+  left: -15%;
+}
+#cards {
+  display: flex;
+  flex-direction: row;
+  /* background: #ffffff; */
+  gap: 6px;
+  height: 90px;
+  width: 280px;
+  justify-content: center;
+  border-radius: 80%;
+}
+#cards > div {
+  width: 65px;
+  height: 85px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+#one {
+  background-color: #c74b6e;
+}
+#two {
+  background-color: #ffe59d;
+}
+#three {
+  background-color: #a7d2cb;
+}
+
+#one > img,
+#two > img,
+#three > img {
+  width: 30px;
+  height: 30px;
+  opacity: 50%;
+  margin-top: 10px;
+}
+.para {
+  margin: 10px;
+
+  font-size: 12px;
+  padding-top: 4px;
+  font-weight: 750;
+}
+#end {
+  position: relative;
+  left: 36px;
+  top: 2px;
+}
+#end > p {
+  color: #7b5386;
+}
+#pick {
+  width: 180px;
+  height: 100px;
+  background-color: #ececec;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+#left {
+  width: 70px;
+  height: 100px;
+  border-radius: 5px;
+}
+#left > img {
+  width: 70px;
+  height: 100px;
+  border-radius: 5px;
+}
+#right {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+#bar {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 11px;
+  top: 10px;
+}
+.four {
+  color: #7b5386;
+  margin: 0%;
+  font-weight: bold;
+  font-size: 14px;
+}
+.five {
+  color: #969393;
+  margin: 0%;
+  font-size: 10px;
+  position: relative;
+  left: 3px;
+  top: 3px;
+  font-weight: bold;
+}
+.six {
+  color: rgb(7, 174, 252);
+  margin: 0%;
+  font-weight: bold;
+  font-size: 8px;
+  padding-top: 3px;
+}
+
+#bar1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 11px;
+  top: 15px;
+  font-size: 15px;
+}
+.seven {
+  color: black;
+  margin: 0%;
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-bottom: 5px;
+}
+
+#last {
+  width: 280px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+#last > p {
+  color: #7b5386;
+}
+#box {
+  width: 100px;
+  height: 20px;
+  background-color: #be0f78;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.san {
+  font-size: 10px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 280px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  gap: 55px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 20px 20px;
+}
+footer > img {
+  width: 15px;
+  height: 14px;
+  filter: invert(65%) sepia(6%) saturate(474%) hue-rotate(358deg)
+    brightness(98%) contrast(90%);
+}
+/* footer > img :active {
+  filter: invert(35%) sepia(47%) saturate(806%) hue-rotate(155deg)
+    brightness(91%) contrast(90%);
+  animation-duration: 3s;
+} */
