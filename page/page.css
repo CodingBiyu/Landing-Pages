@@ -1,0 +1,169 @@
+body {
+  background: gray;
+}
+section {
+  background: #ffffff;
+  width: 350px;
+  height: 730px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+}
+
+#top {
+  background: #435b66;
+  width: 330px;
+  height: 300px;
+  transform: translateY(-20px);
+  border-radius: 30px;
+}
+
+#top > img {
+  width: 20px;
+  height: 20px;
+}
+
+#top > #img1 {
+  margin: 30px;
+  /* position: relative;
+  left: 50px; */
+}
+#top > #img2 {
+  position: relative;
+  left: 190px;
+  bottom: 30px;
+}
+h1,
+p,
+h6 {
+  margin: 0%;
+}
+.font1 {
+  font-size: 15px;
+}
+.font2 {
+  font-size: 34px;
+}
+.font3 {
+  font-size: 36px;
+  font-weight: lighter;
+}
+#heading {
+  position: relative;
+  left: 30px;
+}
+
+#center {
+  background: #d39c6c;
+  width: 280px;
+  height: 100px;
+  /* transform: translateY(23px);  */
+  border-radius: 20px;
+  position: absolute;
+  left: 24px;
+  top: 240px;
+}
+.heading2 {
+  position: absolute;
+  left: 50px;
+  top: 25px;
+}
+
+#circle {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 80%;
+  top: 25%;
+  opacity: 30%;
+}
+#arrow {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 75%;
+  top: 25%;
+  opacity: 80%;
+}
+
+/* 2nd portion starts here */
+#bottom {
+  /* padding-top: 18px; */
+  width: 330px;
+  height: 110px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 22px;
+}
+
+.item {
+  background: #e2e0cc;
+  margin: 3px;
+  width: 125px;
+  height: 110px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item > img {
+  width: 31px;
+  height: 26px;
+  /* margin-top: 20px; */
+}
+.item > p {
+  color: brown;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+#ready {
+  position: relative;
+  right: 25%;
+  top: 30px;
+  color: brown;
+  margin: 0%;
+}
+
+#product {
+  display: flex;
+  justify-content: stretch;
+  width: 280px;
+  height: 200px;
+  color: black;
+  flex-direction: column;
+}
+
+#ring {
+  width: 280px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#ring > img {
+  width: 50px;
+  height: 50px;
+}
+.desc {
+  padding: 18px;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.price {
+  padding: 17px;
+  font-size: large;
+  font-weight: 600;
+  color: #d39c6c;
+}
